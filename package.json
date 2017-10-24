@@ -1,0 +1,41 @@
+{
+  "name": "raspberries-api",
+  "version": "1.0.0",
+  "description": "Web API for raspberries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Arthur Gurinovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurGurinovich/raspberries-api/issues"
+  },
+  "homepage": "https://github.com/ArthurGurinovich/raspberries-api#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22"
+  },
+  "devDependencies": {
+    "cors": "^2.8.3",
+    "mongoose": "^4.8.6"
+  }
+}
